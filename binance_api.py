@@ -146,10 +146,10 @@ class BinanceAPI:
             print(f"获取持仓信息时发生错误: {str(e)}")
             return None
 
-a = BinanceAPI(
-        api_key='UkHQCpU57DzH4FwYC2XK7rF2DEcgxXpPafbXZKiZJhq8eqUutHsLLZ27ButSjPsw',
-        api_secret='eb1QsLNX5akAymWx9LtJ5oclLaIB5vv7go0Eu27GmeEtdlfruXRLQZqHJZlDxFcx',
-        proxy="http://127.0.0.1:7890"  # 代理设置
-    )
+# a = BinanceAPI(
+#         api_key='UkHQCpU57DzH4FwYC2XK7rF2DEcgxXpPafbXZKiZJhq8eqUutHsLLZ27ButSjPsw',
+#         api_secret='eb1QsLNX5akAymWx9LtJ5oclLaIB5vv7go0Eu27GmeEtdlfruXRLQZqHJZlDxFcx',
+#         proxy="http://127.0.0.1:7890"  # 代理设置
+#     )
 # a.get_spot_balance()
 # a.get_futures_balance()
